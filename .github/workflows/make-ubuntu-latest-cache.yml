@@ -1,4 +1,4 @@
-name: Upload tool cache
+name: Make ubuntu-latest tool cache
 on:
   workflow_dispatch:
 jobs:
