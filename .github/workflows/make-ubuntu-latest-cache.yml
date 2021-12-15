@@ -2,7 +2,7 @@ name: Make ubuntu-latest tool cache
 on:
   workflow_dispatch:
 jobs:
-  upload_tool_cache:
+  make_tool_cache:
     runs-on: ubuntu-latest
     steps:
 
