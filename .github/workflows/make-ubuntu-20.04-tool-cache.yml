@@ -1,5 +1,6 @@
-name: [focal] Upload Node.js 10, 12, 14, 18 tool cache
-on: push
+name: (ubuntu focal) Upload Node.js 10, 12, 14, 18 tool cache
+on: 
+   workflow_dispatch:
 jobs:
   upload_tool_cache:
     runs-on: ubuntu-20.04
